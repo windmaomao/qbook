@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import img from './logo.png'
 
 const LogoDiv = styled.img`
-  width: 18px;
+  width: 24px;
   margin-right: 5px;
 `
 
