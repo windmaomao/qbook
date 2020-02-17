@@ -8,7 +8,7 @@ const BlogStyle = styled.div`
   line-height: 1.8;
   max-width: 650px;
   margin: 0 auto;
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     font-weight: bold;
     margin: 1em 0;
   }
@@ -17,6 +17,10 @@ const BlogStyle = styled.div`
   }
   h2 {
     font-size: 1.3em;
+  }
+  h4, h5 {
+    font-size: 0.9em;
+    margin-top: -1em;
   }
   strong {
     font-weight: bold;
