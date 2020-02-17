@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const BlogStyle = styled.div`
   padding: 5px;
-  font-family: Palatino, "Times New Rome";
+  font-family: Palatino, "Times New Rome", "宋体";
   -webkit-font-smoothing: auto;
   font-size: 16px;
   line-height: 1.8;
@@ -23,6 +23,7 @@ const BlogStyle = styled.div`
     margin-top: -1em;
   }
   strong {
+    font-family: Arial, "黑体";
     font-weight: bold;
   }
   p, ul {
@@ -30,13 +31,14 @@ const BlogStyle = styled.div`
     margin: 1em 0;
   }
   em {
-    font-size: 0.9em;
+    font-size: 0.95em;
     font-family: monospace;
   }
   blockquote {
     margin: 1em 0 1em 1em;
     padding: 0 2em;
     border-left: 1px solid #ddd;
+    font-size: 0.9em;
   }
   ul {
     margin-left: 2em;
