@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import Style from './BlogStyle'
-import resume from './md/frontend'
+import resume from './md/resume'
 import artOfWar from './md/art-of-war'
 import adventOfCode from './md/advent-of-code'
 import investmentLog from './md/investment-log'
@@ -13,11 +13,13 @@ const Body = ({ src }) => (
 )
 
 const blogs = [
-  { title: 'Resume', separator: true },
   {
-    title: 'Frontend', stories: [{
+    title: 'Resume', stories: [{
       title: 'Cover',
       body: <Body src={resume[0]} />
+    }, {
+      title: 'Deutsche Bank',
+      body: <Body src={resume[1]} />
     }]
   },
   { title: 'Blog', separator: true },
