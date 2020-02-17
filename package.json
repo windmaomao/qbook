@@ -3,7 +3,6 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "brandnet": "^0.1.4",
     "react": "^16.10.2",
     "react-brandbook": "^1.0.9",
     "react-dom": "^16.10.2",

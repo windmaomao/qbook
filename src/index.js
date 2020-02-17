@@ -6,7 +6,7 @@ import blog from './blog'
 
 const logo = <Logo />
 const title = "MyBook"
-const fontFamily = "CS"
+const fontFamily = "'Crimson Text', serif"
 const themes = [
   { title: 'Light', theme: { mode: 'light', fontFamily } },
   { title: 'Dark', theme: { mode: 'dark', fontFamily } }
