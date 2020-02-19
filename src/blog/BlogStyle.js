@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 const BlogStyle = styled.div`
   padding: 5px;
-  font-family: Palatino, "Times New Rome", "宋体";
   -webkit-font-smoothing: auto;
   font-size: 16px;
   line-height: 1.8;
