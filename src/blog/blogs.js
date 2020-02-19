@@ -4,6 +4,7 @@ import Style from './BlogStyle'
 import resume from './md/resume'
 import artOfWar from './md/art-of-war'
 import adventOfCode from './md/advent-of-code'
+import fortuneTelling from './md/fortune-telling'
 // import investmentLog from './md/investment-log'
 
 const Body = ({ src }) => (
@@ -15,7 +16,7 @@ const Body = ({ src }) => (
 const blogs = [
   {
     title: 'Resume', stories: [
-      'Cover', 'MercuryGate', 'Deutsche Bank'
+      'Cover', 'MercuryGate', 'Deutsche Bank', 'People Designs', 'Past'
     ].map((title, i) => ({
       title,
       body: <Body src={resume[i]} />
@@ -36,6 +37,12 @@ const blogs = [
         title, 
         body: <Body src={artOfWar[i]} />
       }))
+  },
+  {
+    title: '水墨先生', stories: [{
+      title: '犯太岁:属马',
+      body: <Body src={fortuneTelling[0]} />
+    }]
   },
   // {
   //   title: 'Stock Watchlist', stories: [{

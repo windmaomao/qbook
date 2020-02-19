@@ -17,6 +17,9 @@ const BlogStyle = styled.div`
   h2 {
     font-size: 1.3em;
   }
+  h3 {
+    font-size: 1.1em;
+  }
   h4, h5 {
     font-size: 0.9em;
     margin-top: -1em;

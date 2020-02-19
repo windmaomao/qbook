@@ -57,12 +57,10 @@ Accepted article and front cover design for the book and magazine.
 
 `,
 `
-# MercuryGate
+## MercuryGate
 
-## Posted Equipment Management
-
-### Oct 2018 - Current
-#### *React* *Mobx* *Redux* *Java*
+### Posted Equipment Management
+#### Oct 2018 - Current
 ##### Management of equipments for carriers with different origin and destination and availability settings. Transaction page submission with multiple equipments with error handling and display on each row and each field. 
 
 Highlights
@@ -80,10 +78,8 @@ Highlights
 
 ![Custom Multi-select Location](https://s3.amazonaws.com/qp-photo/mg-posted-origin-destinations.png)
 
-## Shipping Order Dashboard
-
-### Aug 2018 - Sep 2018
-#### *React* *Sass* *C3js* *Mobx* *Redux* *Java*
+### Shipping Order Dashboard
+#### Aug 2018 - Sep 2018
 ##### Dashboard app providing custom overview of current reported shipping orders.
 
 Highlights
@@ -136,5 +132,97 @@ Reusable Component
 ![Multi Select Location](https://s3.amazonaws.com/qp-photo/mg-posted-origin-destinations.png)
 ##### Multiple select Location
 
+`,`
+
+## People Designs
+
+> "Fang is one of the most talented software developer / architecture individual I have ever met. His ability to take vague customer requirements and turn them into a fantastic software solution never ceased to amaze me ..." -- David Pfeiffenberger, President / COO of PlusDelta Technologies
+
+### Apnea
+#### 2018
+#### Lead React Developer
+
+An educational program for individuals who have undergone overnight sleep testing through their local sleep center.
+
+Architect & Design
+
+- Design: Color theme, larger font and checkbox size favoring senior person
+- React: Rapid design with consideration of collaboration with non-tech editors
+- Layout: Support public and private pages via routing switch
+- Page: Dynamic page setup (38 pages) with page settings such as audio and navigation
+- Question: User provided multi-choices question fields injection to specific page
+- Answer: Question answers synced with the rest of the project and saved in local storage
+- Audio: Custom HTML5 audio design toggable along with each page load
+- Print: Allow print review page
+
+
+### Prepare For Your Care
+
+#### Oct 2014 - Aug 2016
+##### Lead AngularJS / Laravel Developer
+
+Served as lead *AngularJS* and *Laravel* developer for educational applications, including southern regional center of excellence in nutrition education and obesity prevention, and a hospital stage III counseling program [PrepareForYourCare.org](https://prepareforyourcare.org/welcome). Projects mostly builds book-like chapter navigation with video/narration helper for elder visits. Projects are hosted under *HIPPA* server with consideration of *Section 508* for people with disability. Customers include 200 doctors and 50,000 users around the globe. 
+
+![Prepare for your care](https://lh3.googleusercontent.com/I4xr1EBWDPej9CVO5J_x17orxY8pgsNqXUtubRMnS0EdFaR231U-MmXkSU1msYj4Y88R6jp4TXAOPXbFEqsapEUYAOFYFPT6SN-lW7E8mtJuKhH9YUFE2C6rWODGrgbGJyofRQ)
+
+Architect & Design
+
+- *HIPPA* server host and deployment plan protecting health care privacy
+- Disability compliance with video, and narration support with high contrast
+- Language support translations made for pages, snippets, and graphics
+- Theme and content changes entirely based on access domain
+- *Bootstrap* is used for fast prototype for desktop, *iPad* and other devices
+- Support *Chrome, Safari, Firefox and IE* 8, 9 and 10
+
+Reusable Component
+
+- Modular design for both *Sass* and *Javascript* in developing UI components
+- Two-factor *SMS* enabled authentication for better security protection
+- Password recovery based on either username or 3 out of 6 question answers
+- Support video play with *Vimeo* and *JWPlayer* engine and custom subtitle toggle
+- Auto generate hundreds of forms with generic *UI* and submission handling
+- Allow manager to modify each page content stored in file storage
+- Administer language files through web interface with easy switch
+- Automatic fill out custom *PDF* tempalte with user filled-out
+
+`,`
+## Past Experience
+
+### RxAnte
+
+#### Sep 2014 - Mar 2015
+##### UI / Drupal Developer
+
+Joined a second stage healthcare startup company working as a UI / *Drupal* developer. Provided enterprise Drupal development, support and deployment for a hospital/insurance/doctor relationship web application which helps their patients to adhere with their existing medications therefore upgrade ranking star in the healthcare system. I was responsive for refining Dashboard to present data collected from doctor office and insurance company and providing model prediction display of the patient behaviors. Analyzed data for each account (multi-tenant) are sampled from 10-20 contracts with average 0.5 to 5 millions patients.
+
+### Duke University
+
+#### Jan 2013 - Sep 2014
+##### Lead UI / Drupal Developer
+
+Developed *Drupal* front facing websites for Duke medical center and Duke university building landing pages for new students advising network application. The project splits into discovery, development, theming and support stages, and requires 300 panel layouts, 12 content types, 10 custom modules and 60 custom views and took 8 months and 1000 billable hours to finish for single developer. After the launch the site has been used by 1,400 undergraduates, 640 faculties in 50 majors.
+
+### PlusDelta Technologies
+
+#### Jun 2012 - Dec 2013
+##### Lead UI / Drupal Developer
+
+Joined a startup healthcare company, worked as a UI / *Drupal* developer building the flagship product that tracks medication inside hospitals like FedEx. I help draft interface design and build a medication tracking and workflow process improvement solution for hospital pharmacies that uses handheld smart *mobile* technology with an integrated web-enabled software that verifies, records and monitors every step in the process of medication preparation, dispensing, and delivery. The project took 1 year with 2000 billable hours to finish and has been deployed and used by 4 hospitals.
+
+### Teryn Ashley Enterprises
+
+#### Apr 2011 - Jan 2012
+##### Lead UI / PHP Developer
+
+Developed a webinar replay system of pre-recorded webinar that can be watched by invited users on preset (recurring) time. I was responsible for gathering business requirement and prototyping the UI design for business workflow. I also worked with an offshore *PHP* developer and we together coded frontend and backend logic for serving videos via *PHP* and *MySQL*.
+
+![Replay Webinar System](https://s3.amazonaws.com/qp-photo/webinarfunnel_ui.jpg)
+
+### DataRecoveryMan
+
+#### Apr 2011 - Dec 2011
+##### UI Developer
+
+Helped [DataRecoveryMan.com](DataRecoveryMan.com) build an application for managing inventories of hard drive repair order, tracking order status and uploading order invoice. I was responsible for gathering the business requirement, prototyping design from business workflow and working with an offshore *PHP* developer to deliver the application.
 `
 ]
