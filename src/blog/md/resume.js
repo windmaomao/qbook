@@ -57,6 +57,47 @@ Accepted article and front cover design for the book and magazine.
 
 `,
 `
+# MercuryGate
+
+## Posted Equipment Management
+
+### Oct 2018 - Current
+#### *React* *Mobx* *Redux* *Java*
+##### Management of equipments for carriers with different origin and destination and availability settings. Transaction page submission with multiple equipments with error handling and display on each row and each field. 
+
+Highlights
+
+- React: Fast development using in-house react and UI library for widgets and styles
+- Mobx: Complex form handling with nested object/array data structure and real-time field error validation
+- Typehead: _Typehead_ widget design to lookup carrier by name or id
+- Quantity: Support copy/duplicate/change quantity of each equipment on the form
+- Multiselect: Various _multi-select_ widgets supporting lookup table
+- Directory: Custom widget wired with _multi-select_ widget for location selection
+- Location: Multiple location selector based on country, states, and postal codes
+- Datepicker: Date range picker for equipment availablility
+- Lightbox: Form sliding from edge of screen and pinned on the screen
+- Pill input: Custom widget for selecting items delimitated by comma and displayed as pill label with hover message 
+
+![Custom Multi-select Location](https://s3.amazonaws.com/qp-photo/mg-posted-origin-destinations.png)
+
+## Shipping Order Dashboard
+
+### Aug 2018 - Sep 2018
+#### *React* *Sass* *C3js* *Mobx* *Redux* *Java*
+##### Dashboard app providing custom overview of current reported shipping orders.
+
+Highlights
+
+- React: Fast development using common library for widgets and styles
+- UI Library: Rely on large set of in-house _React_ and _Sass_ components 
+- Statistics: Heavy processing of server data via _Lodash_ and _Moment_ library
+- Chart: Beautiful _SVG_ chart via *D3* and *C3js* library
+- Data: _Redux_ workflow of providing centralized data and actions
+- Form: _Mobx_ provided for form error handling
+- Spinner: Provides various spinner and shimmer effects during action transition
+
+`,
+`
 # Deutsche Bank
 ### UI AngularJS Architect
 ##### Sep 2015 - 2018

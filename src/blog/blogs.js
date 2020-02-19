@@ -14,13 +14,12 @@ const Body = ({ src }) => (
 
 const blogs = [
   {
-    title: 'Resume', stories: [{
-      title: 'Cover',
-      body: <Body src={resume[0]} />
-    }, {
-      title: 'Deutsche Bank',
-      body: <Body src={resume[1]} />
-    }]
+    title: 'Resume', stories: [
+      'Cover', 'MercuryGate', 'Deutsche Bank'
+    ].map((title, i) => ({
+      title,
+      body: <Body src={resume[i]} />
+    }))
   },
   { title: 'Blog', separator: true },
   {
