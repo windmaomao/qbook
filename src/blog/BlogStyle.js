@@ -37,10 +37,10 @@ const BlogStyle = styled.div`
     font-family: monospace;
   }
   blockquote {
-    margin: 1em 0 1em 1em;
+    margin: 1.5em 0 1.5em 1em;
     padding: 0 2em;
     border-left: 1px solid #ddd;
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
   ul {
     margin-left: 2em;

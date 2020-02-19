@@ -14,9 +14,13 @@ const Body = ({ src }) => (
 )
 
 const blogs = [
+  { title: 'Work', separator: true },
   {
     title: 'Resume', stories: [
-      'Cover', 'MercuryGate', 'Deutsche Bank', 'People Designs', 'Past'
+      'Cover Letter', 'Credit Suisse', 
+      'MercuryGate International', 
+      'Deutsche Bank', 'People Designs', 
+      'Past Experience'
     ].map((title, i) => ({
       title,
       body: <Body src={resume[i]} />
@@ -29,6 +33,7 @@ const blogs = [
       body: <Body src={adventOfCode[0]} />
     }]
   },
+  { title: 'Reading', separator: true },
   {
     title: '孙子兵法', stories: [
       '始计', '作战', '谋攻', '军形', '兵势', '虚实', '军争',

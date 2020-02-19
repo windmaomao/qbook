@@ -55,12 +55,26 @@ Accepted article and front cover design for the book and magazine.
 ### Stack Overflow 
 [![](https://stackoverflow.com/users/flair/288096.png)](https://stackoverflow.com/users/288096/windmaomao)
 
-`,
-`
-## MercuryGate
+`,`
+# Credit Suisse
+### UI Architect
+#### 2019 - Current
+
+Serve as the UI architect and tech lead for Credit Suisse compliance team, mainly design and maintain UI library with company branding materials.
+
+### Internal Compliance
+#### Jan 2019 - Jan 2020
+
+### Outside Business Interest
+#### Feb 2020 - 
+
+`,`
+# MercuryGate
+### UI React Developer
+##### 2018
 
 ### Posted Equipment Management
-#### Oct 2018 - Current
+#### Sep 2018 - Jan 2019
 ##### Management of equipments for carriers with different origin and destination and availability settings. Transaction page submission with multiple equipments with error handling and display on each row and each field. 
 
 Highlights
@@ -96,7 +110,7 @@ Highlights
 `
 # Deutsche Bank
 ### UI AngularJS Architect
-##### Sep 2015 - 2018
+##### 2015 - 2018
 
 > I created branding header, menu, fly-in menu, and form etc. that supports light/dark themes and can be plugged in with no more than 10 lines of code. All UI elements are also domain-aware with swappable authorization services maintaining user permissions and preferences.
 
@@ -134,7 +148,7 @@ Reusable Component
 
 `,`
 
-## People Designs
+# People Designs
 
 > "Fang is one of the most talented software developer / architecture individual I have ever met. His ability to take vague customer requirements and turn them into a fantastic software solution never ceased to amaze me ..." -- David Pfeiffenberger, President / COO of PlusDelta Technologies
 
@@ -186,7 +200,7 @@ Reusable Component
 - Automatic fill out custom *PDF* tempalte with user filled-out
 
 `,`
-## Past Experience
+# Past Experience
 
 ### RxAnte
 
