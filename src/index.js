@@ -6,7 +6,11 @@ import blog from './blog'
 import widget from './widget'
 import themes from './themes'
 
-const allTopics = [...blog, ...widget]
+const allTopics = [
+  ...blog.works,
+  ...widget,
+  ...blog.blogs
+]
 
 ReactDOM.render(
   <Book
