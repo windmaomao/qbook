@@ -7,6 +7,7 @@ const renderInfo = (info, render) => {
 const defaultStyle = `
   padding: 10px;
   h4 {
+    font-weight: bold;
     margin: 1.5em 0 0.5em;
   }
   blockquote {
