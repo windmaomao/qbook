@@ -3,13 +3,10 @@ import ReactDOM from 'react-dom'
 import { Book } from 'react-brandbook'
 import Logo from './Logo'
 import blog from './blog'
+import widget from './widget'
+import themes from './themes'
 
-const fontFamily = "Average, serif, '宋体'"
-const themes = [
-  { title: 'Light', theme: { mode: 'light', fontFamily } },
-  { title: 'Dark', theme: { mode: 'dark', fontFamily } }
-]
-const allTopics = [...blog]
+const allTopics = [...blog, ...widget]
 
 ReactDOM.render(
   <Book
