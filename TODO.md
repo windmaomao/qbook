@@ -9,4 +9,4 @@
 
 ### Feb
 
-- add legacy resume back
+- ~~add legacy resume back~~
